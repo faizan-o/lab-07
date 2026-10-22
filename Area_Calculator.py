@@ -29,6 +29,11 @@ def calc_area(shape):
         s = float(input("Enter One Side Length: "))
         print(f"Area: {2 * (s**2) * (1+(2**(1/2)))}")
 
+    elif shape == "hexagon":
+        s = float(input("Enter One Side Length: "))
+        print(f"Area: {(3 * (3 ** (1/2)) * s**2)/2}")
+	
+
     else:
         print("Shape not available")
 
