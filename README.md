@@ -1,6 +1,6 @@
 # Project Title
 
-Future Version
+Area Calculator
 
 ## Description
 
@@ -11,11 +11,11 @@ This Project Allows You To Calculate The Area Of Any Shape By Giving The Shape N
 ### Dependencies
 
 * Python 3
-* Windows 11
+* Windows 13
 
 ### Executing program
 
-python -m Area\_Calculator.py
+python -m AreaCalcuator.py
 
 
 
