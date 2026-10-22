@@ -25,6 +25,10 @@ def calc_area(shape):
         h = float(input("Enter height: "))
         print(f"Area: {b * h}")
 
+    elif shape == "octagon":
+        s = float(input("Enter One Side Length: "))
+        print(f"Area: {2 * (s**2) * (1+(2**(1/2)))}")
+
     else:
         print("Shape not available")
 
